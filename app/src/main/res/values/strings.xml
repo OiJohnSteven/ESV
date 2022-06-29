@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ESV</string>
+    <string name="maps_api_key">AIzaSyBQs67zZuJkiyFTK-KYtNK_ft9Xg3sW3OM</string>
+    <string name="default_info_title">Info Title</string>
+    <string name="default_info_snippet">Info Snippet</string>
+    <string name="pick_place">Pick Place</string>
+
+    <string name="create">Login</string>
+    <string name="mobile">Enter mobile number with country code (e.g +25677777777)</string>
+    <string name="eg">e.g +25677777777</string>
+    <string name="next">Next</string>
+    <string name="verify">Verification</string>
+    <string name="code_sent">b</string>
+    <string name="code">Enter code here:</string>
+
+    <string name="first">First Name</string>
+    <string name="last">Last Name</string>
+    <string name="nin">NIN</string>
+    <string name="residence">Residence</string>
+    <string name="register">Register</string>
+    <string name="service">Services</string>
+
+    <string name="report">Report a case</string>
+    <string name="counsel">Counselling</string>
+    <string name="account">My Account</string>
+
+    <string name="users">Users</string>
+    <string name="victim">Victims</string>
+    <string name="counsellor">Counsellor</string>
+    <string name="police">Police</string>
+    <string name="reports">Reports</string>
+
+    <string name="addC">Add Counsellor</string>
+    <string name="addP">Add Police</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="phone">Phone Number (+256...)</string>
+
+    <string name="pName">Police Name</string>
+    <string name="logout">Log Out</string>
+    
+    <string name="skip">Skip</string>
+    <string name="send">Send Immediately</string>
+    <string name="add">Add other information</string>
+    
+    <string name="newCase">New Cases</string>
+    <string name="chat">Chat</string>
+    <string name="select">Select</string>
+</resources>

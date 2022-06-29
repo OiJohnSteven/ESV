@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ivanojok.esv">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/stop"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/stop"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ESV">
+        <activity
+            android:name=".police.ViewCases"
+            android:exported="false" />
+        <activity
+            android:name=".CreateCase"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddPoliceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddCounsellorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminPoliceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.CounsellorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".police.PoliceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultingCounsellor"
+            android:exported="false" />
+        <activity
+            android:name=".MyAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Services"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+
+        <activity
+            android:name=".MapsFragment"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+AIzaSyBQs67zZuJkiyFTK-KYtNK_ft9Xg3sW3OM
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/maps_api_key" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChatMessageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".counsel.DoctorChats"
+            android:exported="true" />
+        <activity
+            android:name=".counsel.DoctorsHome"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".SelectCounsellor"
+            android:exported="true" />
+
+        <activity android:name=".counsel.DocChatMessages"
+            android:exported="true"/>
+    </application>
+
+</manifest>

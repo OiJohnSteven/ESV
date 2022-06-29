@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MapsFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_marginBottom="@dimen/_120sdp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsFragment" />
+
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:text="@string/add"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22ssp"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@+id/send" />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/round_bg"
+        android:text="@string/skip"
+        android:textSize="@dimen/_18ssp"
+        app:backgroundTint="@null"
+        app:iconGravity="end"
+        app:iconSize="@dimen/_30sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/round_bg"
+        android:text="@string/send"
+        android:textSize="@dimen/_18ssp"
+        android:layout_margin="@dimen/_5sdp"
+        app:backgroundTint="@null"
+        app:iconGravity="end"
+        app:iconSize="@dimen/_30sdp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

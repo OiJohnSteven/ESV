@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "857512007818",
+    "firebase_url": "https://eviolence-ec901-default-rtdb.firebaseio.com",
+    "project_id": "eviolence-ec901",
+    "storage_bucket": "eviolence-ec901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857512007818:android:8259a41eb3aa877ada3573",
+        "android_client_info": {
+          "package_name": "com.ivanojok.esv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857512007818-331pj4l6s3ducc3hgnrml1m396e0g29b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ivanojok.esv",
+            "certificate_hash": "3c9945e52307cb76c9039c2acf458755417a7202"
+          }
+        },
+        {
+          "client_id": "857512007818-fprraoeg5u0te99uour1pgj309vo250p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQs67zZuJkiyFTK-KYtNK_ft9Xg3sW3OM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857512007818-fprraoeg5u0te99uour1pgj309vo250p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
